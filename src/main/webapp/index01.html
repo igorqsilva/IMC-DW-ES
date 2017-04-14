@@ -1,0 +1,72 @@
+   <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Cálculo do IMC - JavaScript"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Calculo IMC</title>
+        <link rel="stylesheet" type="text/css" href="css/style_calculo_imc.css" media= "all"/>
+        <script type = "text/javascript" src= "js/calculo_imc.js"></script>
+
+        <style type="text/css">
+            img, table{ width:185px; }<!--aumenta a largura da tabela-->
+            fieldset { width:140px; }
+            label { display: block: float: left; }
+            label, input { width: 88px; margin: 6px 0;}
+            <!-- 88 largura das caixas de entrada (campo de input)-->
+            th, td {border: 1px solid #FFF; font-size: 16px; }
+        </style>
+    </head>
+
+    <body>
+    <div id= "div">
+    
+    <h2>Cálculo do IMC</h2><br>
+    
+    <form id= "formulario"><br>
+        <fieldset><br>
+            <legend>Cálculo do IMC</legend><br>
+            
+            <label for="kilos">Kilos:</label><br>
+            <input type= "text"  name="kilos" /><br>
+            
+            <label for="metros">Metros:</label><br>
+            <input type= "text"  name="metros" /><br>
+
+            <label for="centimetros">Cm:</label><br>
+            <input type= "text"  name="centimetros" /><br>
+
+            <label for="imc">IMC:</label><br>
+            <input type= "text"  name="imc" disabled="disabled" /><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <input type= "text"  name="imc" disabled="disabled" /><br>
+
+            <a href="#" onclick="calcularIMC();">Calcular</a><br>
+
+
+            <table><br>
+                <tr><th>IMC</th><th>Classificação</th></tr><br>
+
+                <tr><td>< 20</td><td>Abaixo do Peso</td></tr><br>
+
+                <tr><td>20 a 25</td><td>Peso Ideal</td></tr><br>
+
+                <tr><td>25 a 30</td><td>Sobrepeso</td></tr><br>
+
+                <tr><td>30 a 35</td><td>Obesidade Moderada</td></tr><br>
+
+                <tr><td>35 a 40</td><td>Obesidade Severa</td></tr><br>
+
+                <tr><td>40 a 50</td><td>Obesidade Mórbida</td></tr><br>
+
+                <tr><td>>50</td><td>Super Obesidade</td></tr><br>
+                </td>
+            </table><br><br>
+
+          </fieldset><br>
+
+  </form><br>
+
+                  
