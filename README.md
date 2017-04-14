@@ -11,7 +11,7 @@ Atividade desenvolvida durante a disciplina de Desenvolvimento de Software para 
 
 ## Acessando a aplicação
 
-Acesse `http://localhost:8080/IMC-DW-2017/` em qualquer navegador.
+Acesse `http://localhost:9090/IMC-DW-2017/` em qualquer navegador.
 
 ## Como o projeto foi construído
 
